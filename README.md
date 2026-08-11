@@ -1,14 +1,24 @@
-# uyuyanaslan.github.io
+# uyuyanaslanstudio.github.io
 
 Privacy policy pages for UyuyanAslan's games, served by GitHub Pages at
-**https://uyuyanaslan.github.io/**.
+**https://uyuyanaslanstudio.github.io/**.
 
 Google Play requires a publicly reachable privacy policy URL for every listing.
 That is the only job this repository has.
 
 - `index.html` — studio landing page, links to each policy
-- `blastaway.html` — https://uyuyanaslan.github.io/blastaway.html
+- `blastaway.html` — https://uyuyanaslanstudio.github.io/blastaway.html
 - `.nojekyll` — serves the files as-is, with no Jekyll build step in between
+
+> **The repository name is not cosmetic.** GitHub serves a site at the bare
+> `https://<owner>.github.io/` only when the repository is named exactly
+> `<owner>.github.io`. The org is `uyuyanaslanstudio`, so the repository has to
+> be `uyuyanaslanstudio.github.io`. Named anything else — including
+> `uyuyanaslan.github.io`, which is close enough to look right — it becomes a
+> *project* site and the URL grows a path segment:
+> `https://uyuyanaslanstudio.github.io/uyuyanaslan.github.io/blastaway.html`.
+> That URL works, but it goes into every Play listing, so it is worth the
+> twenty seconds to rename.
 
 No build, no dependencies, no analytics. Every page is a single self-contained
 HTML file with its CSS inline and **no external requests at all** — no web
